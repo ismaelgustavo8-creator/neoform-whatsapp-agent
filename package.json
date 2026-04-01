@@ -1,0 +1,21 @@
+{
+  "name": "neoform-whatsapp-agent",
+  "version": "1.0.0",
+  "description": "Agente de vendas autônomo via WhatsApp para NeoForm - InovaPraxis",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "node test/simulate.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "axios": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["whatsapp", "ai-agent", "sales", "claude", "supabase"],
+  "author": "InovaPraxis",
+  "license": "MIT"
+}
